@@ -1,0 +1,15 @@
+{
+  "name": "KyleAnderson-consul",
+  "version": "0.4.6",
+  "author": "Kyle Anderson <kyle@xkyle.com>",
+  "summary": "Configures Consul by Hashicorp",
+  "license": "Apache License, Version 2.0",
+  "source": "https://github.com/solarkennedy/puppet-consul",
+  "project_page": "https://github.com/solarkennedy/puppet-consul",
+  "issues_url": "https://github.com/solarkennedy/puppet-consul/issues",
+  "description": "Configures Consul by Hashicorp",
+  "dependencies": [
+    {"name":"puppetlabs/stdlib","version_requirement":">= 0.1.6"},
+    {"name":"nanliu/staging","version_requirement":">=0.4.0"}
+  ]
+}

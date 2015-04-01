@@ -1,0 +1,4 @@
+---
+pe_puppetdb::pe::listen_address: 0.0.0.0
+pe_mcollective::warn_on_nonpe_agents: true
+pe_mcollective::warn_on_nonpe3_agents: true

@@ -1,0 +1,8 @@
+---
+consul::config_hash:
+  server: true
+  data_dir: '/opt/consul'
+  ui_dir: '/opt/consul/ui'
+  client_addr: '0.0.0.0'
+  bind_addr: "%{::ipaddress_eth1}"
+  bootstrap: true

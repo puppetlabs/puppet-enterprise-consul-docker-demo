@@ -1,0 +1,26 @@
+---
+roles:
+  pe-puppet-master:
+    private_networks:
+      - {ip: '0.0.0.0', auto_network: true}
+    forwarded_ports:
+      - {guest: 8080, host: 18080} # puppetdb
+      - {guest: 8140, host: 18140} # inventory
+    provider:
+      type: virtualbox
+      customize:
+        - [modifyvm, !ruby/sym id, '--memory', 4096]
+        - [modifyvm, !ruby/sym id, '--cpus', 2]
+    provisioners:
+      - {type: hosts}
+      - {type: pe_bootstrap, role: !ruby/sym master}
+      - {type: shell, path: 'scripts/sync_puppet.sh'}
+      - {type: shell, path: 'scripts/puppet.sh'}
+
+  pe-puppet-agent:
+    private_networks:
+      - {ip: '0.0.0.0', auto_network: true}
+    provisioners:
+      - {type: hosts}
+      - {type: pe_bootstrap}
+      - {type: shell, path: 'scripts/puppet.sh'}

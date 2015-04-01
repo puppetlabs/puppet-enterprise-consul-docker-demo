@@ -1,0 +1,59 @@
+{
+  "name": "saz-motd",
+  "version": "2.2.1",
+  "author": "saz",
+  "summary": "Manage 'Message Of The Day' via Puppet",
+  "license": "Apache License, Version 2.0",
+  "source": "https://github.com/saz/puppet-motd.git",
+  "project_page": "https://github.com/saz/puppet-motd",
+  "issues_url": "https://github.com/saz/puppet-motd/issues",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat"
+    },
+    {
+      "operatingsystem": "Amazon"
+    },
+    {
+      "operatingsystem": "CentOS"
+    },
+    {
+      "operatingsystem": "SuSe"
+    },
+    {
+      "operatingsystem": "SLES"
+    },
+    {
+      "operatingsystem": "OracleLinux"
+    },
+    {
+      "operatingsystem": "Scientific"
+    },
+    {
+      "operatingsystem": "Debian"
+    },
+    {
+      "operatingsystem": "Ubuntu"
+    },
+    {
+      "operatingsystem": "Gentoo"
+    }
+  ],
+  "requirements": [
+    {
+      "name": "pe",
+      "version_requirement": ">= 3.2.0"
+    },
+    {
+      "name": "puppet",
+      "version_requirement": "3.x"
+    }
+  ],
+  "description": "Manage 'Message Of The Day' via Puppet",
+  "types": [
+  
+  ],
+  "dependencies": [
+  
+  ]
+}

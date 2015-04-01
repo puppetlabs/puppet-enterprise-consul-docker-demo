@@ -1,0 +1,18 @@
+---
+vms:
+- name: master
+  box: puppetlabs/ubuntu-14.04-64-nocm
+  roles:
+  - pe-puppet-master
+- name: first
+  box: puppetlabs/ubuntu-14.04-64-nocm
+  roles:
+  - pe-puppet-agent
+- name: second
+  box: puppetlabs/ubuntu-14.04-64-nocm
+  roles:
+  - pe-puppet-agent
+- name: third
+  box: puppetlabs/ubuntu-14.04-64-nocm
+  roles:
+  - pe-puppet-agent

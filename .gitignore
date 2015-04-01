@@ -1,0 +1,7 @@
+.pe_build
+.vagrant
+query
+*.tar.gz
+.bundle
+.librarian
+.tmp

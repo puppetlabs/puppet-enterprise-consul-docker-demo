@@ -1,0 +1,14 @@
+{
+  "Gemfile": "dbc1a15e3a264c03878028240cfc5d89",
+  "Gemfile.lock": "f71ffbd79864e5714e03447a6d333182",
+  "LICENSE.txt": "d4bcc0eb4d238a8ace73024e15d4ecf9",
+  "README.md": "6ab7c255f0b8b42a4c297756ca2f96fb",
+  "Rakefile": "20b80e526e351a74df2001f504e756d2",
+  "manifests/init.pp": "7cb5bdaf2cc1d55b7b6153ab494369bb",
+  "metadata.json": "d078855dd2448313a0d1e49a17838653",
+  "spec/classes/init_spec.rb": "4f1f97f0192fe5ba706705760dd48e37",
+  "spec/spec_helper.rb": "a55d1e6483344f8ec6963fcb2c220372",
+  "templates/auto-upgrades.erb": "10b64495e3c92f027f4ffef1cb75a32c",
+  "templates/unattended-upgrades.erb": "ab8d42179221d333c37b5e78817024fa",
+  "tests/init.pp": "06b2bb5b4f114ef9e64d4507aaba63ff"
+}

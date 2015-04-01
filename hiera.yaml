@@ -1,0 +1,19 @@
+---:
+:backends:
+  - yaml
+  - consul
+
+:hierarchy:
+  - "%{::hostname}"
+  - global
+
+:yaml:
+  :datadir: /etc/puppetlabs/puppet/hieradata
+
+:consul:
+  :host: first
+  :failure: graceful
+  :port: 8500
+  :paths:
+    - /v1/catalog/service
+    - /v1/catalog/node

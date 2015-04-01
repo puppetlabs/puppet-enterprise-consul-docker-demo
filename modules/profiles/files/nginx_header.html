@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Sample application for Puppet Enterprise demo</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <style>
+      /*
+       * Globals
+       */
+
+      /* Links */
+      a,
+      a:focus,
+      a:hover {
+        color: #fff;
+      }
+
+      /* Custom default button */
+      .btn-default,
+      .btn-default:hover,
+      .btn-default:focus {
+        color: #333;
+        text-shadow: none; /* Prevent inheritence from `body` */
+        background-color: #fff;
+        border: 1px solid #fff;
+      }
+
+
+      /*
+       * Base structure
+       */
+
+      html,
+      body {
+        height: 100%;
+        background-color: #911;
+      }
+      body {
+        color: #fff;
+        text-align: center;
+        text-shadow: 0 1px 3px rgba(0,0,0,.5);
+      }
+
+      /* Extra markup and styles for table-esque vertical and horizontal centering */
+      .site-wrapper {
+        display: table;
+        width: 100%;
+        height: 100%; /* For at least Firefox */
+        min-height: 100%;
+        -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+                box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+      }
+      .site-wrapper-inner {
+        display: table-cell;
+        vertical-align: top;
+      }
+      .cover-container {
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+      /* Padding for spacing */
+      .inner {
+        padding: 30px;
+      }
+
+      /*
+       * Cover
+       */
+
+      .cover {
+        padding: 0 20px;
+      }
+      .cover .btn-lg {
+        padding: 10px 20px;
+        font-weight: bold;
+      }
+
+      /*
+       * Affix and center
+       */
+
+      @media (min-width: 768px) {
+        /* Pull out the header and footer */
+        .masthead {
+          position: fixed;
+          top: 0;
+        }
+        .mastfoot {
+          position: fixed;
+          bottom: 0;
+        }
+        /* Start the vertical centering */
+        .site-wrapper-inner {
+          vertical-align: middle;
+        }
+        /* Handle the widths */
+        .masthead,
+        .mastfoot,
+        .cover-container {
+          width: 100%; /* Must be percentage or pixels for horizontal alignment */
+        }
+      }
+
+      @media (min-width: 992px) {
+        .masthead,
+        .mastfoot,
+        .cover-container {
+          width: 700px;
+        }
+      }
+    </style>
+
+  </head>
+
+  <body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+            </div>
+          </div>
+
+          <div class="inner cover">
+            <h1 class="cover-heading">

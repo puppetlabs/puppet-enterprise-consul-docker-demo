@@ -1,0 +1,17 @@
+{
+  "Gemfile": "2983a71370794fa1f915917983863c36",
+  "LICENSE": "d6869a585931245be85fd4aece485172",
+  "README.md": "c4c657d1e5fa61b4d0ab6d52fbfbb418",
+  "Rakefile": "0254db5d3fc38c67a2c160d7296a24f8",
+  "manifests/init.pp": "b9861e10a2e13338b8a14cd463b9f99c",
+  "manifests/limits.pp": "09aaf98f9d27c4609100949bd95b6689",
+  "manifests/params.pp": "c698cc32c909d33f9abb1dc6a7ac3948",
+  "metadata.json": "85591a2d3b9bb0cc8027d5c18efe766f",
+  "spec/classes/limits_spec.rb": "291cbaca0a6a8953dafce86ef47c34d5",
+  "spec/defines/limits_spec.rb": "ec9ece915dfd0fc51355819adc94584e",
+  "spec/fixtures/manifests/site.pp": "d41d8cd98f00b204e9800998ecf8427e",
+  "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+  "spec/spec_helper.rb": "0db89c9a486df193c0e40095422e19dc",
+  "templates/limits.erb": "04bc9f6fa851975c82afbe7ee5340ee7",
+  "tests/init.pp": "9570020abdc649eec8e262523b039428"
+}

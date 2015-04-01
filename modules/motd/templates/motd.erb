@@ -1,0 +1,10 @@
+
+<%= scope.lookupvar('::operatingsystem') %> <%= scope.lookupvar('::operatingsystemrelease') %> <%= scope.lookupvar('::architecture') %>
+
+FQDN:      <%= scope.lookupvar('::fqdn') %> (<%= scope.lookupvar('::ipaddress') %>)
+<% if scope.lookupvar('::processor0') then -%>
+Processor: <%= scope.lookupvar('::processorcount') %>x <%= scope.lookupvar('::processor0') %>
+<% end -%>
+Kernel:    <%= scope.lookupvar('::kernelrelease') %>
+Memory:    <%= scope.lookupvar('::memorysize') %>
+

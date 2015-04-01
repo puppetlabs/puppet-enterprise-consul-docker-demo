@@ -1,0 +1,5 @@
+---
+boxes:
+  'puppetlabs/ubuntu-12.04-64-nocm': 'https://vagrantcloud.com/puppetlabs/boxes/ubuntu-12.04-64-nocm'
+  'puppetlabs/ubuntu-14.04-64-nocm': 'https://vagrantcloud.com/puppetlabs/boxes/ubuntu-14.04-64-nocm'
+
