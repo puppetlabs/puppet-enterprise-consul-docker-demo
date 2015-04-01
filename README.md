@@ -26,7 +26,28 @@ tar and run:
 
     vagrant pe-build copy puppet-enterprise-3.7.2-ubuntu-14.04-amd64.tar.gz
 
-You should then be able to launch the 4 virtual machines using:
+First lets launch the PE master:
+
+    vagrant up master --provider virtualbox
+
+You'll want to provide a classification to bootstrap the other nodes.
+Create the following two node groups from the Classification tab:
+
+```
+Rules:          name is first
+Matching nodes: first
+Classes:        roles::master
+```
+
+```
+Rules:          name is not master
+                name is not first
+Matching nodes: second
+                third
+Classes:        roles::app
+```
+
+You should then be able to launch the 3 remaining virtual machines using:
 
     vagrant up --provider virtualbox
 
