@@ -119,7 +119,7 @@ Important parts of the puzzle are built using:
 * [Oscar](https://github.com/adrienthebo/oscar) to create a Puppet Enterprise sandbox.
 * [garethr-docker](https://forge.puppetlabs.com/garethr/docker) to
   install Docker and run the containers
-* [KyloeAnderson-consul](https://forge.puppetlabs.com/KyleAnderson/consul)
+* [KyleAnderson-consul](https://forge.puppetlabs.com/KyleAnderson/consul)
   which installs Consul and allows for registering services and watchers
 * [lynxman-hiera_consul](https://forge.puppetlabs.com/lynxman/hiera_consul)
   which acts as a Hiera backend for Consul
